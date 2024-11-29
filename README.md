@@ -1,29 +1,17 @@
 # sML---Titanic-Decision-Trees & Ensemble Methods (Bagging, Bootstrapping, Boosting)
 
-Create a Decision Tree that can predict the survival of passengers on the
-Titanic. Make sure not to impose any restrictions on the depth of the tree.
+Created a Decision Tree that could predict the survival of passengers on the Titanic. (Note: No estrictions were imnposed on the depth of the tree.)
 
-Load the titanic.csv dataset into a Jupyter notebook. This dataset comes
-from here.
+After the data was loaded into the notebook, the relevant variables were selected from the dataset and then split into a training, development, and testing sets. 
 
-Select relevant variables from the data and split the data into a training,
-development, and test set.
+A decision tree was trained using the training set, with an accompaning plot. 
 
-Train a decision tree and make a plot of it.
+The accuracy of the model on the development set was computed. 
 
-Compute your model’s accuracy on the development set.
+Tree pruning was performed on both the training and development sets using the maxdepth parameter set in the range 2-10, inwhich a plot and accuracy score was computed for each max_depth value.
 
-For tree pruning in Sklearn we usually use the maxdepth parameter, a
-parameter which determines how many levels the tree can have. Try
-building your model with different values of the max_depth [2-10]. At each
-step, create a plot of your tree and store the accuracies on both the training
-and development data.
+A plot containing the training accuracies and development accuracies was generated, and the results examined the explained based on the shape of the lines plotted. 
 
-Plot a line of your training accuracies and another of your development
-accuracies in the same graph. Write down what shape the lines have and
-what this shape means.
+An optimum max_depth value was picked, and an final DC was trained using this parameter. 
 
-Pick an optimum value for the max_depth parameter and train your final
-decision tree using this parameter
-
-Report the accuracy of your final model on the test data.
+The accuracy of the final model on the test data was reported and interpreted.
