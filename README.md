@@ -1,4 +1,4 @@
-# sML---Titanic-Decision-Tree
+# sML---Titanic-Decision-Trees & Ensemble Methods (Bagging, Bootstrapping, Boosting)
 
 Create a Decision Tree that can predict the survival of passengers on the
 Titanic. Make sure not to impose any restrictions on the depth of the tree.
